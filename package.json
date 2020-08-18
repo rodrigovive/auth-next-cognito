@@ -1,11 +1,20 @@
 {
   "name": "auth-cognito-next",
   "version": "0.1.0",
-  "private": true,
+  "author": "Rodrigo Viveros",
+  "description": "Sample using cognito with next.js",
+  "homepage": "https://github.com/rodrigovive/auth-next-cognito",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigovive/auth-next-cognito.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigovive/auth-next-cognito/issues"
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.3.4",
